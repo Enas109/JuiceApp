@@ -1,0 +1,60 @@
+<ion-view view-title="Ice Cream">
+  <ion-content class="login-bg">
+<!--
+    <ion-list class="icecream-list">
+        <ion-item ng-repeat="item in iceCream">
+            <div class="padding sec-bg-color" ng-class-odd="'odd'" ng-class-even="'even'">
+                <div class="icecream-pic" style="background:url({{item.img}})no-repeat">
+                    <div class="like-div sec-bg-color text-center">
+                        <i class="icon ion-android-favorite"></i>
+                    </div>
+                </div>
+                    <div class="padding text-center icecream-det">
+                        <h3>Product name</h3>
+                        <button class="button button-full main-bg-color border-radius">
+                            <p class="white-color">{{item.price}}</p>
+                        </button>
+                    </div>
+            </div>
+        </ion-item>
+    </ion-list>
+-->
+      <ion-list class="icecream1-list">
+        <ion-item ng-repeat="item in iceCream1">
+            <div class="padding sec-bg-color">
+                <div class="icecream1-pic">
+                    <img src="../{{item.img}}">
+                    <div class="like-div sec-bg-color text-center" ng-click="liked=!liked">
+                        <i class="icon ion-ios-heart likecolor" ng-class="{'likecolor': liked}"></i>
+                    </div>
+                </div>
+                <div class="padding text-center icecream-det">
+                        <h3>Product name</h3>
+                        <button class="button button-full main-bg-color border-radius">
+                            <p class="white-color">{{item.price}}</p>
+                        </button>
+                </div>
+            </div>
+          </ion-item>
+      </ion-list>
+      <ion-list class="icecream2-list">
+        <ion-item ng-repeat="item in iceCream2">
+            <div class="padding sec-bg-color">
+                <div class="icecream1-pic">
+                    <img src="../{{item.img}}">
+                    <div class="like-div sec-bg-color text-center" ng-click="liked=!liked">
+                        <i class="icon ion-ios-heart" ng-class="{'likecolor': liked}"></i>
+                    </div>
+                </div>
+                <div class="padding text-center icecream-det">
+                        <h3>Product name</h3>
+                        <button class="button button-full main-bg-color border-radius">
+                            <p class="white-color">{{item.price}}</p>
+                        </button>
+                </div>
+            </div>
+            
+          </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>

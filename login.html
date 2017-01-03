@@ -1,0 +1,45 @@
+<ion-content class="login-bg">
+    <div class="padding login text-center main-bg-color">
+        <img src="../img/login-logo.png">
+        <h3>Signin</h3>
+    </div>
+    <div class="login-content padding">
+        <div class="list list-inset login-list">
+            <label class="item item-input">
+                <i class="icon ion-person main-color placeholder-icon"></i>
+                <input type="text" placeholder="UserName">
+            </label>
+            <label class="item item-input">
+                <i class="icon placeholder-icon main-color ion-android-lock"></i>
+                <input type="password" placeholder="Password">
+            </label>
+        </div>
+        <div class="row login-btns main-color">
+            <div class="col">
+                <button class="button button-full main-bg-color border-radius shadow" ng-click="goto('/app/home')">
+                    <p class="white-color">Signin</p>
+                </button>
+            </div>
+            <div class="col">
+                <button class="button button-full border-radius sign-up shadow" ng-click="goto('/signup')">
+                   <p class="white-color">Signup</p> 
+                </button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="main-bg-color or-div">
+            </div>
+            <div class="main-bg-color or-sec-div">
+            </div>
+                <h5> OR</h5>
+        </div>
+        <button class="button button-full border-radius shadow facebook">
+            <i class="ion-social-facebook"></i>
+            <p class="white-color">Facebook</p>
+        </button>
+        <button class="button button-full button-clear">
+            Skip
+        </button>
+        
+    </div>
+</ion-content>

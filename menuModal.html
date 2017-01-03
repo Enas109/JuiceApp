@@ -1,0 +1,26 @@
+<ion-modal-view>
+    <ion-content class="sec-bg-color padding">
+        
+            <div class="profile-div main-bg-color text-center"> 
+                <div class="profile-frame">
+                    <img class="profile-pic" src="../img/menu-pic.png">
+                    <img class="drops" src="../img/drop-shape.png">
+                    <div class="upload-pic">
+                        <img src="../img/upload-pic.png">
+                    </div>
+                </div>
+                <h5 class="white-color">Celena Jonny</h5>
+                <p class="white-color">USA</p>
+            </div>
+           <ion-list class="menu-list">
+                <ion-item ng-repeat="item in menu" class="text-center">
+                    <div class="main-bg-color padding" ng-click="goto('/{{item.location}}'); closemenuModal()">
+                        <i class="icon {{item.icon}} sec-color"></i>
+                        <h3 class="white-color">{{item.name}}</h3>
+                    </div>
+                </ion-item>
+            </ion-list>
+            
+    
+    </ion-content>
+</ion-modal-view>

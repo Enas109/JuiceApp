@@ -1,0 +1,676 @@
+/* Empty. Add your own CSS if you like */
+.main-color, .login-list .item-select:after, .slider-pager .slider-pager-page{
+   color: #7bb43a !important
+}
+.main-bg-color{
+    background-color: #7bb43a !important
+}
+.sec-bg-color{
+    background-color: #ffc215 !important
+}
+.sec-color{
+    color: #ffc215 !important
+}
+.bar-img{
+    width: 30px;
+    position: absolute;
+    top: 4px;
+}
+.bar.bar-stable .title{
+    color: white;
+    text-align: center;
+    font-weight: normal
+}
+.bar-stable .button.button-clear.ion-ios-gear-outline{
+    color: white;
+    position: absolute;
+    right: 38px;
+    font-size: 24px
+}
+.bar-stable .button.button-clear.back-btn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 4px;
+}
+/************************* start login **********************/
+.login-bg{
+    background-image: url(../img/main-bg.png);
+    background-size: cover !important;
+}
+.login{
+    width: 100%;
+}
+.login img{
+    margin: 5% auto;
+    width: 130px;
+    margin-bottom: 0
+}
+.login h3{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+.login-content .list.list-inset{
+    background-color: transparent;
+    margin-bottom: 0
+}
+.login-content .item.item-input{
+    border-radius: 25px !important;
+    background-color: #f8efc3;
+    margin-bottom: 6px;
+    box-shadow: inset #dad1ab 2px 2px 0px 0px;
+}
+.login-list input::-webkit-input-placeholder, .count-div input::-webkit-input-placeholder {
+   text-align:center !important;
+    color: black !important
+}
+
+.login-list input:-moz-placeholder, .count-div input::-webkit-input-placeholder { /* Firefox 18- */
+   text-align:center !important;
+    color: black !important
+}
+
+.login-list input::-moz-placeholder, .count-div input::-webkit-input-placeholder {  /* Firefox 19+ */
+   text-align:center !important;
+    color: black !important
+}
+
+.login-list input:-ms-input-placeholder, .count-div input::-webkit-input-placeholder {  
+   text-align:center !important;
+    color: black !important
+}
+.border-radius{
+    border-radius: 25px
+}
+.white-color{
+    color: #f6f3ec !important;
+    margin-bottom: 0
+}
+.login-btns.row{
+    padding: 0;
+}
+.login-btns .col{
+    padding: 0
+}
+.login-btns .col:first-child{
+    padding-right: 8px
+}
+.sign-up.button.button-full{
+    background-color: #fb256d
+}
+.facebook.button.button-full{
+    background-color: #3b5999;
+    border: none
+}
+.facebook i{
+    position: absolute;
+    left: 22px;
+    color: white;
+    font-size: 31px;
+}
+.login-content .button-clear{
+    color: black
+}
+.login-content h5{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -7px;
+}
+.or-div ,.or-sec-div{
+    height: 1px;
+    width: 43%
+}
+.or-sec-div{
+    float: right
+}
+.main-div{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+.shadow{
+    box-shadow: 0 2px 2px #b8b5b0;
+}
+/********************** start shipping ***********************/
+.country-option select{
+    background: transparent;
+    text-align: center;
+    text-align-last: center;
+    width: 100%;
+    max-width: 100%;
+    direction: ltr;
+}
+.country-option option {
+  text-align: left;
+  /* reset to left*/
+}
+.country-option.item-select{
+    height: 48px;
+}
+/********************** start home ***********************/
+.home-content.padding{
+    padding: 5px
+}
+.home-content, .box-changer{
+    height: 100%
+}
+.box-main-div{
+    height: 92%
+}
+.box-content{
+    height: 100%
+}
+.home-content .padding{
+   padding: 8px 
+}
+/*
+.box-content img{
+    width: 100%;
+    position: relative
+}
+*/
+.home-pic{
+    background-size: cover !important;
+    height: 100%
+}
+.box-row{
+    position: absolute;
+    top: 2px;
+    padding: 0
+}
+.price-btn.button.button-full{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.box-row .button.button-full{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.51);
+}
+.box-row .col-25{
+    padding-left: 10px
+}
+.description-btn.button.button-full{
+    position: absolute;
+    bottom: 130px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.51);
+}
+.description{
+    width: 100%;
+    position: absolute;
+    bottom: 42px;
+    background-color: rgba(0,0,0,0.6)
+}
+.box-row .button.button-full{
+    margin: 10px auto;
+    left: 0;
+    right: 0;
+}
+/******************* start menuModal **************************/
+.profile-div{
+    padding-top: 20px
+}
+.profile-frame{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto
+}
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: 
+}
+.drops{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 19px;
+}
+.upload-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fb256d;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+.upload-pic img{
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.profile-div h5, .profile-div p{
+    font-weight: normal
+} 
+.profile-div p{
+    padding-bottom: 8px
+}
+
+.menu-cat.item{
+    border: none;
+    margin: 0
+}
+.menu-cat .icon{
+    font-size: 28px;
+}
+.menu-list .item{
+    width: 50%;
+    float: left;
+    margin: 0;
+    border: 0;
+    padding: 3px;
+    padding-bottom: 0;
+    background: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+.menu-list .item:nth-child(2n){
+    padding-right: 0
+}
+.menu-list .item:nth-child(2n+1){
+    padding-left: 0;
+    padding-right: 0
+}
+.menu-list .icon{
+    font-size: 30px;
+}
+/****************** start categories ********************/
+.cat-list .item{
+    background: none;
+    border: 0;
+    width: 50%;
+    float: left;
+    padding: 3px;
+    padding-bottom: 0;
+    margin: 0;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+.cat-list .item:nth-child(2n){
+    padding-left: 0px
+}
+.cat-list .item img{
+    width: 50px;
+    height: 60px;
+}
+.click-color{
+    color: #9ccb1b
+}
+/**************** start IceCream ********************/
+/*
+.icecream-list .item{
+    border: 0;
+    margin: 0;
+    background: none;
+    padding: 4px;
+    padding-bottom: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.icecream-list .item:nth-child(2n){
+    padding-left: 0;
+    height: 80%
+}
+.icecream-det.padding{
+    padding-bottom: 0
+}
+.icecream-pic{
+    background-size: cover !important;
+    width: 100%;
+    height: 30vh;
+    position: relative
+}
+*/
+.icecream1-list .list, .icecream2-list .list{
+    width: 50% !important
+}
+.icecream2-list .list{
+    float: right;
+    display: inline-block
+}
+.icecream1-list .list{
+    display: inline-block;
+    float: left
+}
+.icecream1-list .item{
+    border: 0;
+    background: none;
+    margin: 0;
+    padding: 4px;
+    padding-bottom: 0;
+  
+}
+.icecream1-pic img{
+    width: 100%;
+    max-height: 450px;
+    position: relative
+}
+.icecream2-list .item{
+    border: 0;
+    background: none;
+    margin: 0;
+    padding: 4px;
+    padding-bottom: 0;
+ 
+}
+.likecolor.ion-ios-heart{
+    color: #fb256d
+}
+/*
+.like-div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 5px
+}
+*/
+.like-div{
+    position: absolute;
+    bottom: 100px;
+    left: 21px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.like-div i{
+    font-size: 20px;
+    line-height: 30px;
+}
+.icecream-det .button.button-full{
+    height: 30px;
+    min-height: 30px;
+    margin-bottom: 0;
+}
+.icecream-det p{
+    line-height: 30px
+}
+.icecream-det h3{
+    font-size: 16px;
+    font-weight: normal
+}
+/*********** start details **********************/
+.details-main-div{
+    height: 100%
+}
+.details-content.padding{
+    padding-bottom: 0
+}
+.details-div{
+    height: 100%
+}
+.details-pic{
+    background-size: cover !important;
+    height: 100%;
+    position: relative
+}
+.details-footer{
+    background-color: transparent;
+    padding: 0 25px;
+    border: none;
+}
+.details-footet .button.button-full{
+    margin: 0;
+    height: 34px
+}
+.details-pic .discription p{
+    font-size: 12px;
+    background-color: rgba(68, 68, 68, 0.49);
+} 
+.tesst{
+    position: absolute;
+    bottom: 0
+}
+.tesst .like-div{
+    bottom: 6px;
+    left: 10px
+}
+.des{
+    line-height: normal;
+    height: 60px;
+    overflow: hidden
+}
+.details-des-btn.button.button-full{
+    width: 126px;
+    height: 28px;
+    min-height: 25px;
+    line-height: 28px;
+    position: absolute;
+    bottom: 4px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.details-share-btn{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 16px;
+    bottom: 4px;
+    line-height: 30px;
+    text-align: center;
+}
+.details-share-btn i{
+    font-size: 20px;
+    color: #353535
+}
+.previous-page.button.button-full{
+    position: absolute;
+    top: 180px;
+    left: 8px;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.next-page.button.button-full{
+    position: absolute;
+    top: 180px;
+    right: 8px;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.details-div .slider-pager{
+    position: static
+}
+/**************** start shareModal **************/
+.shareModal{
+    width: 40px;
+    height: 150px;
+    min-height: 50px;
+    right: 32px;
+    top: 333px;
+    background-color: transparent
+}
+.shareBtns{
+    height: 35px;
+    min-width: 35px;
+    border-radius: 50%;
+    min-height: 10px;
+    line-height: 35px;
+}
+
+/**************** start Setting *****************/
+.setting-main-div{
+    border-bottom:1px solid 
+}
+.setting-list input::-webkit-input-placeholder, .setting-list textarea::-webkit-input-placeholder {
+    color: black !important
+}
+
+.setting-list input:-moz-placeholder, .setting-list textarea::-webkit-input-placeholder { /* Firefox 18- */
+    color: black !important
+}
+
+.setting-list input::-moz-placeholder, .setting-list textarea::-webkit-input-placeholder {  /* Firefox 19+ */
+    color: black !important
+}
+
+.setting-list input:-ms-input-placeholder, .setting-list textarea::-webkit-input-placeholder {  
+    color: black !important
+}
+.address.item.item-input{
+    height: 100px;
+}
+.address textarea{
+    background-color: transparent;
+    height: 100%
+}
+.setting{
+    padding: 0 12px
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    float: right;
+    margin-right: 2px;
+    width:19px;
+    height:19px;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+input[type="checkbox"] + label span {
+    background-color: transparent;
+    border: 2px solid 
+}
+
+input[type="checkbox"]:checked + label span{
+     background-image: url(../img/checkbox-pic.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.setting-row{
+    padding: 0
+}
+/******************* start checkout ****************/
+.payement img{
+    height: 35px;
+}
+.payement input[type="checkbox"] + label span{
+    margin-right: 0px;
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+}
+.credit{
+    border-bottom: 1px solid
+}
+.check-btn.padding{
+    padding: 30px;
+    padding-bottom: 0
+}
+/*************** start favorite **********************/
+.fav-list .item{
+    background: none;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 0
+}
+.fav-pic{
+    background-size: cover !important;
+    height: 28vh
+}
+.fav-row{
+    padding: 2px 0
+}
+.fav-row .button.button-full{
+    height: 36px;
+    min-height: 30px;
+    line-height: 30px
+}
+.favorite-div.padding{
+    padding-bottom: 0
+}
+.fav-pic .like-div{
+    bottom: 56px;
+}
+.fav-checkbox input[type="checkbox"] + label span {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 30px;
+    height: 30px;
+}
+.fav-checkbox input[type="checkbox"] + label span {
+    background-color: white;
+}
+.fav-footer.bar-footer{
+    padding: 0;
+    height: 100px;
+}
+.favorite .button.button-full{
+    margin: 0
+}
+.favorite.has-footer{
+    bottom: 100px
+}
+.fav-btns{
+    width: 100%;
+}
+.fav-btns.padding{
+    padding: 0 30px
+}
+.del-btn p{
+    margin: 0
+}
+/********************** Start Cart ********************/
+.cart-del-btn p{
+    font-size: 12px
+}
+.count-div{
+    border: 2px solid;
+    height: 36px;
+    position: relative;
+    background-color: white
+}
+.count-div .item.item-input{
+    background-color: white;
+    border-radius: 50px;
+    height: 31px;
+}
+.count-btns .button.button-full{
+    min-width: 20px;
+    width: 35px;
+    position: absolute;
+    z-index: 100
+}
+.count-btns .button.button-full:first-child{
+    top: -2px;
+    left: -1px;
+}
+.count-btns .button.button-full:nth-child(2){
+    right: -2px;
+    top: -2px;
+}
+.count-div input{
+    border: 0
+}

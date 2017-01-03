@@ -1,0 +1,33 @@
+<ion-view view-title="Home" class="login-bg">
+  <ion-content class="padding home-content" scroll="false">
+    <div class="sec-bg-color padding box-main-div">
+        <ion-slide-box class="details-main-div">
+            <ion-slide ng-repeat="item in details">
+                <div class="box box-content">
+                    <div style="background:url(../{{item.img}})" class="home-pic"></div>
+                    <div class="row box-row">
+                        <div class="col col-75">
+                            <button class="button button-full main-bg-color border-radius">
+                                <p style="text-align:left;" class="white-color">Product Name</p>
+                            </button>
+                        </div>
+                        <div class="col col-25">
+                            <button class="button button-full main-bg-color price-btn">
+                                <p class="white-color">$15</p>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="button button-full main-bg-color border-radius description-btn" ng-click="goto('/app/details')">
+                        <p class="white-color">Description</p>
+                    </button>
+                    <div class="description padding">
+                        <p class="white-color des">It is a long established fact that a reader will be distracted by the readable content of apage when looking at its layout</p>
+                    </div>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+      
+    </div>
+    
+  </ion-content>
+</ion-view>

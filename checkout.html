@@ -1,0 +1,55 @@
+<ion-view view-title="Checkout">
+  <ion-content class="login-bg">
+      <div class="padding setting-main-div sec-color">
+        <h5>Fill your data</h5>  
+        <div class="login-content setting">
+            <div class="list list-inset setting-list">
+                <label class="item item-input">
+                    <input type="text" placeholder="Full Name">
+                </label>
+                <label class="item item-input">
+                    <input type="tel" placeholder="Phone Number">
+                </label>
+                <label class="item item-input address">
+                    <textarea placeholder="Address"></textarea>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="padding credit sec-color">
+        <h5>Chose your card</h5>
+        <div class="row setting-row">
+            <div class="col col-50">
+                <div class="payement">
+                    <input type="checkbox" id="radio03" name="radio" />
+                    <label for="radio03">
+                        <span class="main-color"></span>
+                       <img src="../img/visa.png">
+                    </label>
+                </div>
+            </div>
+            <div class="col col-50">
+                <div class="payement text-center">
+                    <input type="checkbox" id="radio04" name="radio" />
+                    <label for="radio04">
+                        <span class="main-color"></span>
+                       <img src="../img/mastercard.png">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="login-content setting">
+            <div class="list list-inset setting-list">
+                <label class="item item-input">
+                    <input type="password" placeholder="Password">
+                </label>
+            </div>
+        </div>
+    </div>
+      <div class="text-center padding check-btn">
+          <button class="button button-full border-radius main-bg-color" ng-click="goto('/shipping')">
+            <p class="white-color">Check out</p>
+          </button>
+       </div>
+  </ion-content>
+</ion-view>

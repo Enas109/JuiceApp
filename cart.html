@@ -1,0 +1,61 @@
+<ion-view view-title="Cart">
+  <ion-content class="login-bg has-footer favorite">
+    <ion-list class="fav-list">
+        <ion-item ng-repeat="item in details">
+            <div class="sec-bg-color padding favorite-div">
+                <div class="fav-pic" style="background:url({{item.img}})no-repeat">
+                     <div class="like-div sec-bg-color text-center" ng-click="liked=!liked">
+                        <i class="icon ion-ios-heart likecolor" ng-class="{'likecolor': liked}"></i>
+                    </div>
+                     
+                </div>
+                <div class="row fav-row">
+                        <div class="col col-75">
+                            <button class="button button-full main-bg-color border-radius">
+                                <p style="text-align:left;" class="white-color">Product Name</p>
+                            </button>
+                        </div>
+                        <div class="col col-25">
+                            <button class="button button-full border-radius main-bg-color fav-price">
+                                <p class="white-color">$15</p>
+                            </button>
+                        </div>
+                </div>
+                <div class="row fav-row">
+                        <div class="col col-75 count-btns">
+                            <div class="main-color count-div border-radius" ng-init="counter = 1">
+                                <button class="button button-full border-radius main-bg-color" ng-click="counter = counter + 1">
+                                    <i class="white-color ion-plus"></i>
+                                </button>
+                                <button class="button button-full border-radius main-bg-color" ng-click="counter = counter - 1">
+                                    <i class="white-color ion-minus"></i>
+                                </button>
+                                <label class="item item-input">
+                                    <input type="value" placeholder=" {{counter}}">
+                                </label>
+                               
+                            </div>
+                        </div>
+                        <div class="col col-25">
+                            <button class="button button-full border-radius main-bg-color cart-del-btn">
+                                <p class="white-color">Delete</p>
+                            </button>
+                        </div>
+                </div>
+            </div>
+            
+        </ion-item>  
+      </ion-list>
+  </ion-content>
+    <ion-footer-bar class="fav-footer login-bg">
+        <div class="fav-btns padding">
+            <button class="button button-full border-radius main-bg-color" ng-click="goto('/app/checkout')">
+                <p class="white-color">Check Out</p>
+            </button>
+      
+            <button class="button button-full border-radius sec-bg-color del-btn">
+                <p>Delete all</p>
+            </button>
+        </div>
+    </ion-footer-bar>
+</ion-view>

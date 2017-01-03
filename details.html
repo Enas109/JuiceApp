@@ -1,0 +1,57 @@
+<ion-view title="Details">
+    <ion-content class="login-bg padding details-content" scroll="false">
+            <div class="sec-bg-color padding details-div">
+                <ion-slide-box class="details-main-div" active-slide="myActiveSlide">
+                    <ion-slide ng-repeat="item in details">
+                        <div style="background:url(../{{item.img}})no-repeat" class="details-pic">
+                            <button class="button button-full border-radius main-bg-color previous-page" ng-click="slidePrevious()">
+                                <i class="white-color ion-chevron-left"></i>
+                            </button>
+                            <button class="button button-full border-radius main-bg-color next-page" ng-click="slideNext()">
+                                <i class="white-color ion-chevron-right"></i>
+                            </button>
+                            <div class="row box-row">
+                                <div class="col col-75">
+                                    <button class="button button-full main-bg-color border-radius">
+                                        <p style="text-align:left;" class="white-color">Product Name</p>
+                                    </button>
+                                </div>
+                                <div class="col col-25">
+                                    <button class="button button-full main-bg-color price-btn">
+                                        <p class="white-color">$15</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="description padding">
+                                <p class="white-color des">It is a long established fact that a reader will be distracted by the readable content of apage when looking at its layout</p>
+                            </div>
+                            <div class="row tesst">
+                                <div class="col col-33">
+                                    <div class="like-div sec-bg-color text-center" ng-click="liked=!liked">
+                                        <i class="icon ion-ios-heart likecolor" ng-class="{'likecolor': liked}"></i>
+                                    </div>
+                                </div>
+                                <div class="col col-33 text-center">
+                                    <button class="button button-full main-bg-color border-radius details-des-btn">
+                                        <p class="white-color">Description</p>
+                                    </button>
+                                </div>
+                                <div class="col col-33">
+                                    <div class="sec-bg-color details-share-btn" ng-click="openshareModal()">
+                                        <i class="ion-android-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </ion-slide>
+                </ion-slide-box>
+            </div>
+    </ion-content>
+<ion-footer-bar class="details-footer login-bg">
+    <button class="button button-full main-bg-color border-radius" ng-click="goto('/app/cart')">
+        <p class="white-color">Add to cart</p>
+    </button>
+       
+</ion-footer-bar>
+</ion-view>

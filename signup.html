@@ -1,0 +1,30 @@
+<ion-content class="login-bg">
+   <div class="padding login text-center main-bg-color">
+        <img src="../img/login-logo.png">
+        <h3>Signup</h3>
+    </div>
+    <div class="login-content padding">
+        <div class="list list-inset login-list">
+            <label class="item item-input">
+                <i class="icon ion-person main-color placeholder-icon"></i>
+                <input type="text" placeholder="Username">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-ios-email-outline placeholder-icon main-color"></i>
+                <input type="email" placeholder="E-mail">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-android-lock main-color placeholder-icon">
+                </i>
+                <input type="password" placeholder="Password">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-android-lock main-color placeholder-icon"></i>
+                <input type="password" placeholder="Retype Password">
+            </label>
+        </div>
+        <button class="button button-full border-radius shadow main-bg-color" ng-click="goto('/app/home')">
+            <p class="white-color">Signup</p>
+        </button>
+    </div>
+</ion-content>

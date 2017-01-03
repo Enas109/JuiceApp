@@ -1,0 +1,12 @@
+<ion-view view-title="Categories">
+  <ion-content class="sec-bg-color">
+      <ion-list class="cat-list">
+        <ion-item ng-repeat="item in categories" class="text-center">
+            <div class="main-bg-color padding" ng-click="goto('/{{item.location}}')">
+                <img src="../img/{{item.img}}">
+                <h3 class="white-color">{{item.name}}</h3>
+            </div>
+          </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>

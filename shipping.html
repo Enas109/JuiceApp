@@ -1,0 +1,37 @@
+<ion-content class="login-bg">
+    <div class="padding login text-center main-bg-color">
+        <img src="../img/login-logo.png">
+        <h3>Shipping address</h3>
+    </div>
+    <div class="login-content padding">
+        <div class="list list-inset login-list">
+            <label class="item item-input">
+                <i class="icon ion-person placeholder-icon main-color"></i>
+                <input type="text" placeholder="Full name">
+            </label>
+            <label class="item item-input">
+                <input type="tel" placeholder="Phone Number">
+            </label>
+            <label class="item item-input item-select country-option">
+                <i class="icon ion-ios-location placeholder-icon main-color"></i>
+                <select class="country-option">
+                <option>UK</option>
+                <option selected>Country</option>
+                <option>France</option>
+                </select>
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="City">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Address">
+            </label>
+        </div>
+        <button class="button button-full main-bg-color shadow border-radius">
+            <p class="white-color">Submit</p>
+        </button>
+        <button class="button button-full button-clear" ng-click="goto('/app/cart')">
+            Skip
+        </button>
+    </div>
+</ion-content>
